@@ -1,0 +1,7 @@
+f = open("example.txt","r") 
+myList =[]
+for line in f:
+	myList.append(line);
+print(myList)
+
+
